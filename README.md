@@ -1,0 +1,1 @@
+# Vue Structure Cli Plugin for rendering project structure

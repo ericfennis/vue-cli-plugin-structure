@@ -1,0 +1,164 @@
+// /* 
+// html5doctor.com Reset Stylesheet
+// v1.6.1
+// Last Updated: 2010-09-17
+// Author: Richard Clark - http://richclarkdesign.com 
+// Twitter: @rich_clark
+// */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+html {
+    -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+    font-size: 62.5%;
+}
+body {
+    line-height:1;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: inherit;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+address {
+    font-style: normal;
+}
+nav ul, nav ul li {
+    list-style:none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: inside;
+    }
+}
+#content {
+    & ul li {
+        list-style-type: disc;
+    }
+    & ol li {
+        list-style-type:decimal;
+    }
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote, q {
+    &:before, &:after {
+        content:'';
+        content:none;
+    }
+}
+    
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    &:focus {
+        outline: none;
+        border:none;
+    }
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr, dfn {
+    &[title]{
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input, textarea, select, button {
+    border-radius: 0;
+    -webkit-appearance: none;
+    &:focus {
+        outline: none;
+        border: 1px solid #ccc;
+        -webkit-appearance: none;
+    }
+}
+input {
+    &[type=submit] {
+        -webkit-appearance: none;
+        border:1px solid #999;
+    }
+    &.middle:focus {
+        outline-width: 0;
+    }
+    &[type=text]:focus {
+        outline:none;
+    }
+}
+input, select {
+    vertical-align:middle;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #ccc;
+    margin:1em 0;
+    padding:0;
+}
+code, pre {
+    font-size: 1em;
+}
+pre {
+    font-size: 0.8em;
+    padding: 1em;
+    background: #eee;
+}

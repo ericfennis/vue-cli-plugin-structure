@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+// Typography
+$headingFont: 'Roboto', sans-serif;
+$font: 'Roboto', sans-serif;
+
+%basic-style {
+  font: normal 1.6rem/1.5 $font;
+}
+
+%heading-style {
+	font-weight: bold;
+}
