@@ -1,9 +1,9 @@
 {
   "name": "vue-cli-plugin-structure",
+  "description": "Vue Structure Cli Plugin for rendering project structure",
   "author": "Eric Fennis <ericfennis>",
   "license": "MIT",
   "version": "0.1.0",
-  "description": "Vue Structure Cli Plugin for rendering project structure",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -24,6 +24,6 @@
     "access": "public"
   },
   "dependencies": {
-    "fs-extra": "^5.0.0"
+    "fs-extra": "^7.0.0"
   }
 }
