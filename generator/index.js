@@ -1,4 +1,4 @@
-const fs = require('fs-extra');
+const fs = require('fs-extra')
 
 module.exports = (api, options, rootOptions) => {
 
@@ -34,14 +34,9 @@ module.exports = (api, options, rootOptions) => {
     })
   }
 
-  // const baseDir = api.extractCallDir()
-  // const pathToSrc = path.resolve(baseDir, './src')
-
   try {
     fs.emptyDirSync('./src')
     api.render('./template')
-    console.log("Template Rendered!");
-    
   } catch (err) {
     console.error(err)
   }
