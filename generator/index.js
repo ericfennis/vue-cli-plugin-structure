@@ -1,3 +1,5 @@
+const fs = require('fs-extra');
+
 module.exports = (api, options, rootOptions) => {
 
   if (!api.hasPlugin('vue-router')) {
@@ -32,7 +34,12 @@ module.exports = (api, options, rootOptions) => {
     })
   }
 
-  
+  const baseDir = api.extractCallDir();
+  const pathToSrc = path.resolve(baseDir, './src');
 
-  api.render('./template')
+  fs.removeSync(pathToSrc).then(()=>{
+    api.render('./template')
+  })
+
+  
 }

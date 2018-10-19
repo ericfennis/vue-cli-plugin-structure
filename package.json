@@ -22,5 +22,8 @@
   "homepage": "https://github.com/ericfennis/vue-cli-plugin-structure#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0"
   }
 }
