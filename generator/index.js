@@ -34,12 +34,16 @@ module.exports = (api, options, rootOptions) => {
     })
   }
 
-  const baseDir = api.extractCallDir();
-  const pathToSrc = path.resolve(baseDir, './src');
+  // const baseDir = api.extractCallDir()
+  // const pathToSrc = path.resolve(baseDir, './src')
 
-  fs.removeSync(pathToSrc).then(()=>{
+  try {
+    fs.emptyDirSync('./src')
     api.render('./template')
-  })
-
+    console.log("Template Rendered!");
+    
+  } catch (err) {
+    console.error(err)
+  }
   
 }
