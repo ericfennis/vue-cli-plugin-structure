@@ -1,7 +1,7 @@
 import ExampleComponent from '../../components/component';
 
 export default {
-  name: 'HomePage',
+  name: 'Home',
   components: {
     ExampleComponent,
   },

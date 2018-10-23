@@ -1,10 +1,30 @@
-const fs = require('fs-extra')
+const fs = require('fs')
 
-module.exports = (api, options, rootOptions) => {
+const originalFiles = [
+  'src/App.vue',
+  'src/router.js',
+  'src/store.js',
+  'src/assets/logo.png',
+  'src/components/HelloWorld.vue',
+  'src/views/About.vue',
+  'src/views/Home.vue',
+]
+
+const testFolder = './src/';
+
+fs.readdir(testFolder, (err, files) => {
+  files.forEach(file => {
+    console.log(file);
+  });
+})
+
+let srcFileList = [];
+
+module.exports = (api, options, rootOptions, opts) => {
 
   if (!api.hasPlugin('vue-router')) {
     api.extendPackage({
-      devDependencies: {
+      dependencies: {
         "vue-router": "^3.0.1"
       }
     })
@@ -34,11 +54,25 @@ module.exports = (api, options, rootOptions) => {
     })
   }
 
-  try {
-    fs.emptyDirSync('./src')
-    api.render('./template')
-  } catch (err) {
-    console.error(err)
-  }
-  
+  api.postProcessFiles(files => {
+    const fileList = Object.keys(files);
+    srcFileList = fileList.filter(file => /^src\//.test(file));
+  })
+
+  api.onCreateComplete(() => {
+    srcFileList.forEach(file => {
+      if(originalFiles.indexOf(file) >= 0) {
+        const currentPath = api.resolve(file)
+        try {
+          fs.unlinkSync(currentPath);
+          console.log('successfully deleted '+file);
+        } catch (err) {
+          console.error(err); 
+        }
+      }
+    })
+  })
+
+  api.render('./template')
+
 }

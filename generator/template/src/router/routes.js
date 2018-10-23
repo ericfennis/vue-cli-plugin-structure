@@ -1,10 +1,10 @@
-import { HomePage, PageNotFound } from '../views';
+import { Home, NotFound } from '../views';
 
 export default [
   {
     path: '/',
-    component: HomePage,
-    name: 'Homepage',
+    component: Home,
+    name: 'Home',
     meta: {
       title: 'Homepage',
     },
@@ -15,6 +15,6 @@ export default [
     meta: {
       title: 'Page not Found',
     },
-    component: PageNotFound,
+    component: NotFound,
   },
 ];
