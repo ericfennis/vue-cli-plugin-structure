@@ -11,57 +11,5 @@
     },
     "eslint-plugin-html": "^4.0.1",
     "eslint-friendly-formatter": "^4.0.1"
-  },
-  "configs": {
-    "eslintConfig": {
-      "root": true,
-      "parser": "vue-eslint-parser",
-      "parserOptions": {
-        "sourceType": "module",
-        "parser": "babel-eslint"
-      },
-      "env": {
-        "browser": true,
-        "node":true
-      },
-      "extends": ["airbnb-base", "prettier", "plugin:vue/recommended", "plugin:vue-types/strongly-recommended"],
-      "plugins": ["import", "prettier", "vue"],
-      "settings": {
-       "import/resolver": {
-          "webpack": {
-            "config": "build-tools/config/webpack/webpack.base.conf.js"
-          }
-        }
-      },
-      "rules": {
-        "import/extensions": [
-          "error",
-          "always",
-          {
-            "js": "never",
-            "vue": "never",
-            "ts": "never"
-          }
-        ],
-        "no-debugger": 2,
-        "no-console": 1,
-        "no-param-reassign": 0,
-        "no-underscore-dangle": 0,
-        "prettier/prettier": [
-          "error",
-          { "singleQuote": true, "trailingComma": "all", "printWidth": 100, "tabWidth": 2 }
-        ]
-      },
-      "overrides": [
-        {
-          "files": [ "src/**/*.vue"],
-          "rules": {
-            "prettier/prettier": [
-              "off"
-            ]
-          }
-        }
-      ]
-    }
   }
 }
