@@ -10,14 +10,6 @@ const originalFiles = [
   'src/views/Home.vue',
 ]
 
-const testFolder = './src/';
-
-fs.readdir(testFolder, (err, files) => {
-  files.forEach(file => {
-    console.log(file);
-  });
-})
-
 let srcFileList = [];
 
 module.exports = (api, options, rootOptions, opts) => {
