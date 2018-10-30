@@ -5,11 +5,12 @@
   "cssPreprocessor": "scss",
   "plugins": {
     "@vue/cli-plugin-babel": {},
-    "@vue/cli-plugin-eslint": {
-      "config": "airbnb",
-      "lintOn": ["save", "commit"]
-    },
+    "@vue/cli-plugin-eslint": {},
     "eslint-plugin-html": "^4.0.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
     "eslint-friendly-formatter": "^4.0.1"
   }
 }

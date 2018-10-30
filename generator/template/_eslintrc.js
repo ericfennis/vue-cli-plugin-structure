@@ -11,7 +11,7 @@ module.exports = {
     browser: true,
     node:true
   },
-  extends: ['airbnb-base', 'prettier', 'plugin:vue/recommended', 'plugin:vue-types/strongly-recommended'],
+  extends: ['airbnb-base', 'prettier', 'plugin:vue/recommended'],
   plugins: ['import', 'prettier', 'vue'],
   settings: {
     'import/resolver': {

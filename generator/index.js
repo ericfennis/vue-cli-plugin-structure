@@ -24,7 +24,7 @@ module.exports = (api, options, rootOptions, opts) => {
 
   if (!api.hasPlugin('vuex')) {
     api.extendPackage({
-      devDependencies: {
+      dependencies: {
         "vuex": "^3.0.1"
       }
     })
@@ -46,6 +46,17 @@ module.exports = (api, options, rootOptions, opts) => {
     })
   }
 
+  api.extendPackage({
+    devDependencies: {
+      "eslint-plugin-html": "^4.0.1",
+      "eslint-config-airbnb-base": "^13.1.0",
+      "eslint-config-prettier": "^3.1.0",
+      "eslint-plugin-import": "^2.14.0",
+      "eslint-plugin-prettier": "^3.0.0",
+      "eslint-friendly-formatter": "^4.0.1"
+    }
+  })
+
   api.postProcessFiles(files => {
     const fileList = Object.keys(files);
     srcFileList = fileList.filter(file => /^src\//.test(file));
@@ -66,5 +77,4 @@ module.exports = (api, options, rootOptions, opts) => {
   })
 
   api.render('./template')
-
 }
