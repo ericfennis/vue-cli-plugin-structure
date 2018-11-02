@@ -9,9 +9,7 @@ A Vue CLI Plugin to generate a project structure for your vue project.
 vue add structure
 ```
 ```
-vue invoke structure
-```
-```
+# Start Developing!
 yarn serve
 ```
 
