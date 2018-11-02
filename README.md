@@ -3,12 +3,19 @@
 # Vue CLI Structure
 A Vue CLI Plugin to generate a project structure for your vue project.
 
-## Installation 
+## Installation
 ``` bash
-# In your project folder
+# Create project
+vue create my-project
+```
+``` bash
+# Create project
+cd my-project
+```
+``` bash
 vue add structure
 ```
-```
+``` bash
 # Start Developing!
 yarn serve
 ```
@@ -23,7 +30,7 @@ An project boilerplate for Vue.js made for Vue CLI. Clean code structure to spee
 * Filters folder (with globals file)
 * Mixins folder (with globals file)
 * Views folder (with "404 Error Page")
-* Asset folder for: fonts, icons, images and SCSS files.
+* Asset folder included: fonts, icons, images and SCSS files.
 
 ## Packages
 * [Vue CLI](https://cli.vuejs.org/)
