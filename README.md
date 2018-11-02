@@ -9,10 +9,11 @@ A Vue CLI Plugin to generate a project structure for your vue project.
 vue create my-project
 ```
 ``` bash
-# Create project
+# Go into your new folder
 cd my-project
 ```
 ``` bash
+# Add project structure
 vue add structure
 ```
 ``` bash
