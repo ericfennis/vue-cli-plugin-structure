@@ -3,11 +3,12 @@ import App from './App/App.vue';
 import router from './router';
 import store from './store';
 
-// Import Modules
+// Import SCSS and Globals
 import './assets/styles/main.scss';
-import './directives';
-import './filters';
-import './mixins';
+import './components/_globals';
+import './directives/_globals';
+import './filters/_globals';
+import './mixins/_globals';
 
 // Vue Init
 new Vue({

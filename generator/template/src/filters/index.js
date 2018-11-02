@@ -1,5 +1,5 @@
-import status from './status';
-// add filters you want to register globally
+import exampleFilter from './example-filter';
+
 export default {
-  status,
+  exampleFilter,
 };

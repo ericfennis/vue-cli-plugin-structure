@@ -1,6 +1,8 @@
-import focus from './focus';
+// import exampleDirective from './example-directive';
 
-// add directives you want to register globally
+/**
+ *  Register directives globally
+ * */
 export default {
-  focus,
+  // exampleDirective,
 };

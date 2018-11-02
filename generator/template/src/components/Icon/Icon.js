@@ -1,11 +1,12 @@
-import VueTypes from 'vue-types';
-
-const svgContext = require.context('../../asset/svg/?inline', false, /\.svg/);
+const svgContext = require.context('../../assets/icons/', false, /\.svg/);
 // @vue/component
 export default {
   name: 'Icon',
   props: {
-    name: VueTypes.string.isRequired,
+    name: {
+      type: String,
+      required: true,
+    },
   },
   computed: {
     icon() {

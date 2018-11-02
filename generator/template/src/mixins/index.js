@@ -1,5 +1,5 @@
-import hello from './hello';
+import exampleMixin from './example-mixin';
 
 export default {
-  hello,
+  exampleMixin,
 };

@@ -1,15 +1,15 @@
 const namespace = 'app';
 
-export const SET_DEVICE_STATE = `${namespace}/setDeviceState`;
+export const MUTATION = `${namespace}/mutation`;
 
 export default {
   state: {
-    deviceState: null,
+    value: null,
   },
   getters: {},
   mutations: {
-    [SET_DEVICE_STATE](state, deviceState) {
-      state.deviceState = deviceState;
+    [MUTATION](state, value) {
+      state.value = value;
     },
   },
   actions: {},

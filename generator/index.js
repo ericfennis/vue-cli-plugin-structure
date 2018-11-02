@@ -30,14 +30,6 @@ module.exports = (api, options, rootOptions, opts) => {
     })
   }
 
-  if (!api.hasPlugin('node-sass')) {
-    api.extendPackage({
-      devDependencies: {
-        "node-sass": "^4.9.0",
-      }
-    })
-  }
-
   if (!api.hasPlugin('sass-loader')) {
     api.extendPackage({
       devDependencies: {
@@ -53,7 +45,9 @@ module.exports = (api, options, rootOptions, opts) => {
       "eslint-config-prettier": "^3.1.0",
       "eslint-plugin-import": "^2.14.0",
       "eslint-plugin-prettier": "^3.0.0",
-      "eslint-friendly-formatter": "^4.0.1"
+      "eslint-friendly-formatter": "^4.0.1",
+      "svg-inline-loader": "^0.8.0",
+      "sass-loader": "^7.0.1",
     }
   })
 

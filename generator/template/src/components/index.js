@@ -1,5 +1,6 @@
-import Vue from 'vue';
+import ExampleComponent from './ExampleComponent';
 
-import Icon from './Icon';
-
-Vue.component('icon', Icon);
+/* eslint-disable import/prefer-default-export,import,prettier/prettier */
+export {
+  ExampleComponent,
+};

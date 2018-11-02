@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <h1>Homepage</h1>
+    <h1>Home</h1>
     <example-component/>
   </div>
 </template>

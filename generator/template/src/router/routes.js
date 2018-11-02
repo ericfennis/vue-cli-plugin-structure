@@ -1,4 +1,8 @@
-import { Home, NotFound } from '../views';
+/* eslint-disable-next-line import,prettier/prettier */
+import { 
+  Home, 
+  NotFound 
+} from '../views';
 
 export default [
   {
@@ -6,7 +10,7 @@ export default [
     component: Home,
     name: 'Home',
     meta: {
-      title: 'Homepage',
+      title: 'Home',
     },
   },
   {

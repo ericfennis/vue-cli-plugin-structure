@@ -1,4 +1,4 @@
-import ExampleComponent from '../../components/component';
+import { ExampleComponent } from '../../components';
 
 export default {
   name: 'Home',
