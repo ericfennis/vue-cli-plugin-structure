@@ -1,7 +1,7 @@
 /* eslint-disable-next-line import,prettier/prettier */
 import { 
   Home, 
-  NotFound 
+  NotFound,
 } from '../views';
 
 export default [
