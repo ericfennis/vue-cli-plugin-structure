@@ -1,5 +1,5 @@
 const svgContext = require.context('../../assets/icons/', false, /\.svg/);
-// @vue/component
+
 export default {
   name: 'Icon',
   props: {
