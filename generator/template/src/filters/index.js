@@ -1,5 +1,6 @@
 import exampleFilter from './example-filter';
 
-export default {
+/* eslint-disable import/prefer-default-export,import,prettier/prettier */
+export {
   exampleFilter,
 };

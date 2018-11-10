@@ -1,5 +1,6 @@
 import exampleMixin from './example-mixin';
 
-export default {
+/* eslint-disable import/prefer-default-export,import,prettier/prettier */
+export {
   exampleMixin,
 };

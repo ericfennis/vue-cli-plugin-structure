@@ -1,12 +1,15 @@
 import Vue from 'vue';
 
-// import status from './example-filter';
+/* eslint-disable import/prefer-default-export,import,prettier/prettier */
+import {
+  // exampleFilter,
+} from '.';
 
 /**
  *  Register filters globally
  * */
 const filters = {
-  // status,
+  // exampleFilter,
 };
 
 Object.keys(filters).forEach(key => Vue.filter(key, filters[key]));

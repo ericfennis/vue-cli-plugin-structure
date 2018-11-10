@@ -1,6 +1,9 @@
 import Vue from 'vue';
 
-import Icon from './Icon';
+/* eslint-disable import/prefer-default-export,import,prettier/prettier */
+import {
+  Icon,
+} from '.';
 
 /**
  *  Register components globally
