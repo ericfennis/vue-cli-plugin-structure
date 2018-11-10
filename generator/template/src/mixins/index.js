@@ -1,5 +1,5 @@
 import exampleMixin from './example-mixin';
 
-export default {
+export {
   exampleMixin,
 };

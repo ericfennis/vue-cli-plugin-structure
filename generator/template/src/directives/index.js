@@ -1,5 +1,5 @@
 import exampleDirective from './example-directive';
 
-export default {
+export {
   exampleDirective,
 };

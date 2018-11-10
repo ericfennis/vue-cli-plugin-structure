@@ -2,8 +2,8 @@ import Vue from 'vue';
 
 /* eslint-disable import/prefer-default-export,import,prettier/prettier */
 import {
-  // exampleMixin
-} from '.'
+  // exampleMixin,
+} from '.';
 
 /**
  *  Register mixins globally

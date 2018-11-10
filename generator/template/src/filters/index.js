@@ -1,5 +1,5 @@
 import exampleFilter from './example-filter';
 
-export default {
+export {
   exampleFilter,
 };
