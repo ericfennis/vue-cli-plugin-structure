@@ -1,7 +1,6 @@
 @import "reset";
 
 @import "typography";
-@import "icons";
 
 @import "form";
 @import "buttons";
@@ -12,6 +11,8 @@
 @import "animations";
 
 @import "variables";
+@import "../modules/mixins";
+@import "../modules/functions";
 
 body {
   @extend %basic-style;

@@ -22,5 +22,8 @@
   "homepage": "https://github.com/ericfennis/vue-cli-plugin-structure#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "style-resources-loader": "^1.2.1"
   }
 }
