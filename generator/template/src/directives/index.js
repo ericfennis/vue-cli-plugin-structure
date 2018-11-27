@@ -1,8 +1,6 @@
-// import exampleDirective from './example-directive';
+import exampleDirective from './example-directive';
 
-/**
- *  Register directives globally
- * */
-export default {
-  // exampleDirective,
+/* eslint-disable import/prefer-default-export,import,prettier/prettier */
+export {
+  exampleDirective,
 };
