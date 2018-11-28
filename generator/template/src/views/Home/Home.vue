@@ -1,4 +1,4 @@
-<style src="./Home.scss" lang="scss"></style>
+<style src="./Home.scss" lang="scss" scoped></style>
 <script src="./Home.js"></script>
 
 <template>
