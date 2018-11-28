@@ -5,7 +5,7 @@
   <div>
     <h3>Component</h3>
     <div>
-      <icon name="vue"/>
+      <Icon name="vue" />
     </div>
   </div>
 </template>
