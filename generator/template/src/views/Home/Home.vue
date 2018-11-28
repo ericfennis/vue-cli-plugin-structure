@@ -4,6 +4,6 @@
 <template>
   <div>
     <h1>Home</h1>
-    <example-component/>
+    <ExampleComponent />
   </div>
 </template>
