@@ -1,3 +1,1 @@
-import ExampleComponent from './ExampleComponent.vue';
-
-export default ExampleComponent;
+export { default } from './ExampleComponent.vue';
