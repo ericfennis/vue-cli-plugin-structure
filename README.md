@@ -23,6 +23,12 @@ vue add structure
 yarn serve
 ```
 
+## Documentation
+
+[Vue Structure Documentation](https://ericfennis.gitbook.io/vue-structure/)
+<br/>
+<hr/>
+
 ## Features
 * Router
 * Store (State Management with modules)
@@ -118,7 +124,7 @@ yarn serve
     ├── 📂 store
     │   ├── index.js
     │   ├── store.js
-    │   └── modules
+    │   └── 📂 modules
     │       ├── app
     │       │   ├── app.js
     │       │   └── index.js
