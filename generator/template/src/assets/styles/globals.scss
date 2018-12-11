@@ -1,0 +1,11 @@
+// Globals SASS Variables, Functions & Mixins.
+// This will import in every Vue component SCSS File.
+//
+
+@import './variables/breakpoints';
+@import './variables/colors';
+@import './variables/typography';
+@import './variables/spacings';
+
+@import './modules/mixins';
+@import './modules/functions';

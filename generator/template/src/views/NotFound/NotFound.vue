@@ -1,4 +1,4 @@
-<style src="./NotFound.scss" lang="scss"></style>
+<style src="./NotFound.scss" lang="scss" scoped></style>
 <script src="./NotFound.js"></script>
 
 <template>

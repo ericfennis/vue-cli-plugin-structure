@@ -1,9 +1,9 @@
 <p align=center><img width="410" src="https://raw.githubusercontent.com/ericfennis/vue-structure/4bff88983d079a288be98b0adcb5cc00e43cecc7/src/assets/images/vue-structure.png" alt="Vue Structure Logo"></p>
 
 # Vue CLI Structure
-A Vue CLI Plugin to generate a project structure for your vue project. Project strcuture render based on the [Vue Structure](https://github.com/ericfennis/vue-structure) project structure.
+A Vue CLI Plugin to generate a project structure for your vue project. Project structure render based on the [Vue Structure](https://github.com/ericfennis/vue-structure) project structure.
 
-Vue structure is a project boilerplate for Vue CLI. Clean code structure to save time for setting up your Vue ClI projects.
+Vue structure is a project boilerplate for Vue CLI. It provides a clean code structure to develop fast and expandable Vue Projects.
 
 ## Installation
 ``` bash
@@ -23,17 +23,21 @@ vue add structure
 yarn serve
 ```
 
-## About Vue Structure
-An project boilerplate for Vue.js made for Vue CLI. Clean code structure to speed up your development time. No more wasting time for setting up Vue projects.
+## Documentation
+
+[Vue Structure Documentation](https://ericfennis.gitbook.io/vue-structure/)
+<br/>
+<hr/>
 
 ## Features
 * Router
-* Store (State Management)
+* Store (State Management with modules)
 * Directives folder (with globals file)
 * Filters folder (with globals file)
 * Mixins folder (with globals file)
 * Views folder (with "404 Error Page")
 * Asset folder included: fonts, icons, images and SCSS files.
+* *-Optional-* A CLI Generator to generate: Components, Views, Routes, Stores, Filters, Directives, Mixins. [Vue Structure Generator](https://github.com/ericfennis/vue-cli-plugin-structure-generator)
 
 ## Packages
 * [Vue CLI](https://cli.vuejs.org/)
@@ -115,10 +119,12 @@ An project boilerplate for Vue.js made for Vue CLI. Clean code structure to spee
     │   └── index.js
     ├── 📂 router
     │   ├── index.js
+    │   ├── router.js
     │   └── routes.js
     ├── 📂 store
     │   ├── index.js
-    │   └── modules
+    │   ├── store.js
+    │   └── 📂 modules
     │       ├── app
     │       │   ├── app.js
     │       │   └── index.js

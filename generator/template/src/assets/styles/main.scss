@@ -1,2 +1,19 @@
-@import "./partials/base";
-@import "./vendor/vendor";
+// Partials
+@import './partials/reset';
+@import './partials/fonts';
+@import './partials/animations';
+
+@import './variables/breakpoints';
+@import './variables/colors';
+@import './variables/typography';
+@import './variables/spacings';
+
+@import './modules/mixins';
+@import './modules/functions';
+
+@import './layout/grid';
+@import './layout/form';
+@import './layout/button';
+@import './layout/base';
+
+@import './vendor/vendor';

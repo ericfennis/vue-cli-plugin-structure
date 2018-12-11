@@ -7,16 +7,16 @@ import {
 export default [
   {
     path: '/',
-    name: 'Home',
     component: Home,
+    name: 'Home',
     meta: {
       title: 'Home',
     },
   },
   {
     path: '*',
-    name: 'Error 404',
     component: NotFound,
+    name: 'Error 404',
     meta: {
       title: 'Page not Found',
     },

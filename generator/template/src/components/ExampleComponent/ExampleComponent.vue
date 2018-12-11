@@ -1,4 +1,4 @@
-<style src="./ExampleComponent.scss" lang="scss"></style>
+<style src="./ExampleComponent.scss" lang="scss" scoped></style>
 <script src="./ExampleComponent.js"></script>
 
 <template>
