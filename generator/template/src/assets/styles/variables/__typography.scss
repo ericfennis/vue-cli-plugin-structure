@@ -1,0 +1,23 @@
+// Typography
+
+// Base Font
+$font-family: 'Roboto', sans-serif;
+$font-family-heading: 'Roboto', sans-serif;
+
+$font-weight: normal;
+$font-size: 1.6rem;
+$line-height: 1.4;
+
+$font-color: #222;
+
+// Font Extender
+
+%base-style {
+  font: $font-weight #{$font-size}/#{$line-height} $font-family;
+  color: $font-color;
+}
+
+%heading-style {
+  font-family: $font-family-heading;
+	font-weight: bold;
+}

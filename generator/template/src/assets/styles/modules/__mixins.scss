@@ -1,1 +1,26 @@
-// Sass Mixins
+// Mixins
+
+// Media Queries
+@mixin mobile {
+  @media all and (max-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media all and (min-width: #{$mobile + .063em}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media all and (min-width: #{$tablet + .063em}) {
+    @content;
+  }
+}
+
+@mixin wide {
+  @media (min-width: #{$desktop + .063em}) {
+    @content;
+  }
+}

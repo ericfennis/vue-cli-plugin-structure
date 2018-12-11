@@ -1,2 +1,2 @@
-APP_NAME = 'New App';
-BASE_URL = '/';
+VUE_APP_NAME = 'New App'
+BASE_URL = '/'
