@@ -1,1 +1,2 @@
-VUE_APP_NAME = 'New App'
+APP_NAME = 'New App';
+BASE_URL = '/';
