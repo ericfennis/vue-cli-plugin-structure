@@ -1,16 +1,26 @@
-const fs = require('fs')
+const fs = require('fs'),
+    path = require('path');
 
-const originalFiles = [
-  'src/App.vue',
-  'src/router.js',
-  'src/store.js',
-  'src/assets/logo.png',
-  'src/components/HelloWorld.vue',
-  'src/views/About.vue',
-  'src/views/Home.vue',
-]
+function walk(currentDirPath, callback) {
+  fs.readdir(currentDirPath, function (err, files) {
+      if (err) {
+          throw new Error(err);
+      }
+      files.forEach(function (name) {
+          var filePath = path.join(currentDirPath, name);
+          var stat = fs.statSync(filePath);
+          if (stat.isFile()) {
+              callback(filePath, stat);
+          } else if (stat.isDirectory()) {
+              walk(filePath, callback);
+          }
+      });
+  });
+}
 
-let srcFileList = [];
+const originalFiles = []
+
+let srcFileList = []
 
 const newDependencies = {
   "vue-router": "^3.0.1",
@@ -27,6 +37,12 @@ const newDependencies = {
 
 module.exports = (api, options, rootOptions, opts) => {
 
+  walk('src', (filePath, stat) => {
+    if(filePath === "src/main.js") {
+      originalFiles.push(filePath);
+    }
+  });
+  
   Object.keys(newDependencies).forEach( dependencyName => {
     if (!api.hasPlugin(dependencyName)) {
       api.extendPackage({
