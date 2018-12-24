@@ -1,8 +1,2 @@
-import Home from './Home';
-import NotFound from './NotFound';
-
-/* eslint-disable import/prefer-default-export,import,prettier/prettier */
-export { 
-  Home, 
-  NotFound 
-};
+export { default as Home } from './Home';
+export { default as NotFound } from './NotFound';

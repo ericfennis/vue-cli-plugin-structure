@@ -1,8 +1,2 @@
-import Icon from './Icon';
-import ExampleComponent from './ExampleComponent';
-
-/* eslint-disable import/prefer-default-export,import,prettier/prettier */
-export {
-  Icon,
-  ExampleComponent,
-};
+export { default as Icon } from './Icon';
+export { default as ExampleComponent } from './ExampleComponent';
