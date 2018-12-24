@@ -28,7 +28,6 @@ const newDependencies = {
 module.exports = (api, options, rootOptions, opts) => {
 
   Object.keys(newDependencies).forEach( dependencyName => {
-    console.log(dependencyName)
     if (!api.hasPlugin(dependencyName)) {
       api.extendPackage({
         "devDependencies": {
