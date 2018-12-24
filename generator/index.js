@@ -48,11 +48,10 @@ module.exports = (api, options, rootOptions, opts) => {
 
   api.extendPackage({
     devDependencies: {
+      "@vue/eslint-config-airbnb": "^4.0.0",
+      "@vue/eslint-config-prettier": "^3.0.5",
+      "babel-plugin-transform-imports": "^1.5.1",
       "eslint-plugin-html": "^4.0.1",
-      "eslint-config-airbnb-base": "^13.1.0",
-      "eslint-config-prettier": "^3.1.0",
-      "eslint-plugin-import": "^2.14.0",
-      "eslint-plugin-prettier": "^3.0.0",
       "eslint-friendly-formatter": "^4.0.1",
       "svg-inline-loader": "^0.8.0",
     }
@@ -69,7 +68,7 @@ module.exports = (api, options, rootOptions, opts) => {
         const currentPath = api.resolve(file)
         try {
           fs.unlinkSync(currentPath);
-          console.log('successfully deleted '+file);
+          console.log('successfully deleted', file);
         } catch (err) {
           console.error(err); 
         }
