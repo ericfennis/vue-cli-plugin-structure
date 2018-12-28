@@ -2,7 +2,7 @@
 import { 
   Home, 
   NotFound,
-} from '../views';
+} from '@/views';
 
 export default [
   {
