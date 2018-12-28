@@ -52,6 +52,15 @@ module.exports = (api, options, rootOptions, opts) => {
     }
   });
 
+  // Add Structure Generator
+  if(options.addGenerator) {
+    api.extendPackage({
+      "devDependencies": {
+        "vue-cli-plugin-structure": "^0.4.5",
+      }
+    })
+  }
+
   api.postProcessFiles(files => {
     const fileList = Object.keys(files);
     srcFileList = fileList.filter(file => /^src\//.test(file));
