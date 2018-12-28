@@ -12,51 +12,45 @@ const originalFiles = [
 
 let srcFileList = [];
 
+const devDependencies = {
+  "node-sass": "^4.9.0",
+  "sass-loader": "^7.0.1",
+  "@vue/eslint-config-airbnb": "^4.0.0",
+  "@vue/eslint-config-prettier": "^3.0.5",
+  "babel-plugin-transform-imports": "^1.5.1",
+  "eslint-plugin-html": "^4.0.1",
+  "eslint-friendly-formatter": "^4.0.1",
+  "svg-inline-loader": "^0.8.0",
+}
+
+const newDependencies = {
+  "vue-router": "^3.0.1",
+  "vuex": "^3.0.1",
+}
+
 module.exports = (api, options, rootOptions, opts) => {
 
-  if (!api.hasPlugin('vue-router')) {
-    api.extendPackage({
-      dependencies: {
-        "vue-router": "^3.0.1"
-      }
-    })
-  }
-
-  if (!api.hasPlugin('vuex')) {
-    api.extendPackage({
-      dependencies: {
-        "vuex": "^3.0.1"
-      }
-    })
-  }
-
-  if (!api.hasPlugin('node-sass')) {
-    api.extendPackage({
-      devDependencies: {
-        "node-sass": "^4.9.0",
-      }
-    })
-  }
-
-  if (!api.hasPlugin('sass-loader')) {
-    api.extendPackage({
-      devDependencies: {
-        "sass-loader": "^7.0.1",
-      }
-    })
-  }
-
-  api.extendPackage({
-    devDependencies: {
-      "eslint-plugin-html": "^4.0.1",
-      "eslint-config-airbnb-base": "^13.1.0",
-      "eslint-config-prettier": "^3.1.0",
-      "eslint-plugin-import": "^2.14.0",
-      "eslint-plugin-prettier": "^3.0.0",
-      "eslint-friendly-formatter": "^4.0.1",
-      "svg-inline-loader": "^0.8.0",
+  // Install Dev Dependecies
+  Object.keys(devDependencies).forEach( dependencyName => {
+    if (!api.hasPlugin(dependencyName)) {
+      api.extendPackage({
+        "devDependencies": {
+          [dependencyName] : devDependencies[dependencyName]
+        }
+      })
     }
-  })
+  });
+
+  // Install new Dependecies
+  Object.keys(newDependencies).forEach( dependencyName => {
+    if (!api.hasPlugin(dependencyName)) {
+      api.extendPackage({
+        "dependencies": {
+          [dependencyName] : newDependencies[dependencyName]
+        }
+      })
+    }
+  });
 
   api.postProcessFiles(files => {
     const fileList = Object.keys(files);
@@ -69,7 +63,7 @@ module.exports = (api, options, rootOptions, opts) => {
         const currentPath = api.resolve(file)
         try {
           fs.unlinkSync(currentPath);
-          console.log('successfully deleted '+file);
+          console.log('successfully deleted', file);
         } catch (err) {
           console.error(err); 
         }

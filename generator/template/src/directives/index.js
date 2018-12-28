@@ -1,6 +1,2 @@
-import exampleDirective from './example-directive';
-
-/* eslint-disable import/prefer-default-export,import,prettier/prettier */
-export {
-  exampleDirective,
-};
+/* eslint-disable import/prefer-default-export, import, prettier/prettier */
+export { default as exampleDirective } from './exampleDirective';

@@ -11,12 +11,12 @@ module.exports = {
     browser: true,
     node:true
   },
-  extends: ['airbnb-base', 'prettier', 'plugin:vue/recommended'],
+  extends: ['@vue/airbnb', '@vue/prettier', 'plugin:vue/essential', 'plugin:vue/recommended'],
   plugins: ['import', 'prettier', 'vue'],
   settings: {
     'import/resolver': {
       webpack: {
-        config: 'build-tools/config/webpack/webpack.base.conf.js',
+        config: require.resolve('@vue/cli-service/webpack.config.js'),
       },
     },
   },
@@ -32,8 +32,8 @@ module.exports = {
       },
     ],
     // allow debugger during development
-    'no-debugger': 2,
-    'no-console': 1,
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-param-reassign': 0,
     // only for use with getter-setters
     'no-underscore-dangle': 0,

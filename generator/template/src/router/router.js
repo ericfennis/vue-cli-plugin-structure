@@ -17,7 +17,7 @@ const router = new Router({
 
 router.beforeEach((to, from, next) => {
   next();
-  document.title = `${to.meta.title} - ${process.env.APP_NAME}`;
+  document.title = `${to.meta.title} - ${process.env.VUE_APP_NAME}`;
   next();
 });
 
