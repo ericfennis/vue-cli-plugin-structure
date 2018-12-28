@@ -12,9 +12,7 @@ const originalFiles = [
 
 let srcFileList = [];
 
-const newDependencies = {
-  "vue-router": "^3.0.1",
-  "vuex": "^3.0.1",
+const devDependencies = {
   "node-sass": "^4.9.0",
   "sass-loader": "^7.0.1",
   "@vue/eslint-config-airbnb": "^4.0.0",
@@ -25,12 +23,29 @@ const newDependencies = {
   "svg-inline-loader": "^0.8.0",
 }
 
+const newDependencies = {
+  "vue-router": "^3.0.1",
+  "vuex": "^3.0.1",
+}
+
 module.exports = (api, options, rootOptions, opts) => {
 
-  Object.keys(newDependencies).forEach( dependencyName => {
+  // Install Dev Dependecies
+  Object.keys(devDependencies).forEach( dependencyName => {
     if (!api.hasPlugin(dependencyName)) {
       api.extendPackage({
         "devDependencies": {
+          [dependencyName] : devDependencies[dependencyName]
+        }
+      })
+    }
+  });
+
+  // Install new Dependecies
+  Object.keys(newDependencies).forEach( dependencyName => {
+    if (!api.hasPlugin(dependencyName)) {
+      api.extendPackage({
+        "dependencies": {
           [dependencyName] : newDependencies[dependencyName]
         }
       })
