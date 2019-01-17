@@ -44,11 +44,9 @@ module.exports = {
   },
   overrides: [
     {
-      "files": [ "src/**/*.vue"],
-      "rules": {
-        'prettier/prettier': [
-          'off'
-        ],
+      files: ['src/**/*.vue'],
+      rules: {
+        'prettier/prettier': ['off'],
       },
     },
   ],

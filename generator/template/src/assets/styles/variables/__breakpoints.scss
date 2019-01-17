@@ -10,3 +10,10 @@ $tablet:  64em; // 1024px
 
 /* Desktop 1024px - 1920px */
 $desktop: 120em; //1920px   
+
+/* Import this file in Javascipt to use those variables in javscript files  */
+:export {
+  mobile: ($mobile * 16) / 1em;
+  tablet: ($tablet * 16) / 1em;
+  desktop: ($desktop * 16) / 1em;
+}
