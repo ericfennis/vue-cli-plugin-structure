@@ -4,8 +4,8 @@ module.exports = {
     loaderOptions: {
       sass: {
         data: `@import "@/assets/styles/globals.scss";`,
-      }
-    }
+      },
+    },
   },
   chainWebpack: config => {
     const svgRule = config.module.rule('svg');
