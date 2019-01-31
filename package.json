@@ -5,6 +5,10 @@
   "license": "MIT",
   "version": "0.7.2",
   "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ericfennis/vue-cli-plugin-structure.git"
@@ -22,5 +26,8 @@
   "homepage": "https://github.com/ericfennis/vue-cli-plugin-structure#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.35"
   }
 }
