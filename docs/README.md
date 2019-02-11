@@ -13,4 +13,9 @@ features:
 footer: LICENCE MIT - Created by Eric Fennis (@ericfennis)
 ---
 
+## Quick installation
+
+```
+vue create {Your-package} --preset ericfennis/vue-structure
+```
 

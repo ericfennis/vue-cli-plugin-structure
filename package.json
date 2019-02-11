@@ -28,6 +28,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.35"
+    "vuepress": "^1.0.0-alpha.37"
   }
 }

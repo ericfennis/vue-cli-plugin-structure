@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><polygon points="75.65 37.32 180.35 37.32 128 128 75.65 37.32" fill="#41b883" stroke="#41b883" stroke-miterlimit="10" stroke-width="10"/><polygon points="49.47 82.66 23.3 37.32 75.65 37.32 49.47 82.66" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="206.53 82.66 180.35 37.32 232.7 37.32 206.53 82.66" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="180.35 128 154.18 82.66 206.53 82.66 180.35 128" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="101.82 173.34 75.65 128 128 128 101.82 173.34" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="75.65 128 49.47 82.66 101.82 82.66 75.65 128" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="180.35 37.32 154.18 82.66 206.53 82.66 180.35 37.32" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="75.65 37.32 49.47 82.66 101.82 82.66 75.65 37.32" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="128 128 101.82 173.34 154.18 173.34 128 128" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="154.18 82.66 128 128 180.35 128 154.18 82.66" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="101.82 82.66 75.65 128 128 128 101.82 82.66" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="154.18 173.34 128 128 180.35 128 154.18 173.34" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/><polygon points="128 218.68 101.82 173.34 154.18 173.34 128 218.68" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/></svg>
+<svg
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <polygon points="75.65 37.32 180.35 37.32 128 128 75.65 37.32" fill="#41b883" stroke="#41b883" stroke-linejoin="round" stroke-width="10"/>
+  <path 
+    d="M75.65,37.32,49.47,82.66h52.35L75.65,128H128l-26.18,45.34h52.36L128,128h52.35L154.18,82.66h52.35L180.35,37.32"
+    fill="none" 
+    stroke="#34495e" 
+    stroke-linejoin="round"
+    stroke-linecap="round"
+    stroke-width="10"
+    stroke-dasharray="800"
+    stroke-dashoffset="0"
+  >
+    <animate 
+      attributeName="stroke-dashoffset"
+      dur="2.4s"
+      values="1000; 0" 
+      calcMode="ease"
+    />
+    
+  </path>
+  <polygon points="180.35 37.32 154.18 82.66 128 128 101.82 82.66 75.65 37.32 23.3 37.32 49.47 82.66 75.65 128 101.82 173.34 128 218.68 154.18 173.34 180.35 128 206.53 82.66 232.7 37.32 180.35 37.32" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="10"/>
+</svg>

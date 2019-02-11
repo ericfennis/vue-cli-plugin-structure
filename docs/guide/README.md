@@ -1,9 +1,6 @@
----
-sidebarDepth: 1
----
 # Overview
 
-## Features:
+## Features
 
 * Router
 * Store (State Management)
