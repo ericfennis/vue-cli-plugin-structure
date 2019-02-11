@@ -9,7 +9,7 @@
 vue create {my-project} --preset ericfennis/vue-structure
 ```
 
-### To install vue structure follow these commands 
+## To install vue structure follow these commands 
 ``` sh
 # Create new project
 vue create my-project

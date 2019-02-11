@@ -6,7 +6,7 @@ description: 'Filters, directives and mixins.'
 
 ​Filters, Directives & Mixins, each of them have their own folder. In the folder there's located an index.js, \_globals.js file and your ​Filters, Directives & Mixins. Index.js is for indexing all the filters, directives, mixins. Globals file is for register Filters, Directives and mixins globally. 
 
-## The Folders
+## Directories
 
 ``` sh
 📂src
