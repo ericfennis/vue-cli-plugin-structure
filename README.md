@@ -55,3 +55,9 @@ vue add structure
 # Start Developing!
 yarn serve
 ```
+
+## Quick Installation
+
+``` sh
+vue create --preset ericfennis/vue-structure {my-project}
+```
