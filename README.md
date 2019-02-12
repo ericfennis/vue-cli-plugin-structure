@@ -1,9 +1,8 @@
-<p align=center><img width="410" src="/docs/.vuepress/public/logo.svg" alt="Vue Structure Logo"></p>
-
-![](https://img.shields.io/npm/dw/vue-cli-plugin-structure.svg?style=popout)
-![](https://img.shields.io/github/license/ericfennis/vue-cli-plugin-structure.svg?style=popout)
-![](https://img.shields.io/github/issues/ericfennis/vue-cli-plugin-structure.svg?style=popout)
-![](https://img.shields.io/github/release-date/ericfennis/vue-cli-plugin-structure.svg?label=Last%20Release&style=popout)
+![logo](./docs/.vuepress/public/logo.svg)
+![NPM Downloads](https://img.shields.io/npm/dw/vue-cli-plugin-structure.svg?style=popout)
+![MIT License](https://img.shields.io/github/license/ericfennis/vue-cli-plugin-structure.svg?style=popout)
+![Issues](https://img.shields.io/github/issues/ericfennis/vue-cli-plugin-structure.svg?style=popout)
+![Release Date](https://img.shields.io/github/release-date/ericfennis/vue-cli-plugin-structure.svg?label=Last%20Release&style=popout)
 
 # Vue CLI Structure
 
@@ -14,7 +13,6 @@ Vue Structure is a Vue CLI Plugin that generate a project structure. It's made f
 * Conventional project structure
 * Code Comfort
 * Modularity
-* Clear code and overview
 
 ## Features:
 

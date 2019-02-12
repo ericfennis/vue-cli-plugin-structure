@@ -21,7 +21,7 @@ description: >-
 vue add structure generator
 ```
 
-### Getting Started with Structure Generator <a id="getting-started-with-structure-generator"></a>
+### Getting Started with Structure Generator
 
 ```bash
 # Start using
@@ -77,9 +77,6 @@ yarn make --directive focus
 yarn make --mixin scrollTo 
 ```
 
-{% hint style="warning" %}
+::: warning
 When using the shorthand command it will generate by using the default settings. By generating a view it skips the route generation.
-{% endhint %}
-
-
-
+:::

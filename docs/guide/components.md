@@ -1,6 +1,6 @@
 # Components
 
-### Component Folder
+## Component Folder
 
 Each component has his own folder included with a: Component Javascript file, SCSS file for styling and a Vue file for html.
 
@@ -37,7 +37,7 @@ You can import it like:
 import { Button, FormItem } from '@/components';
 ```
 
-### Register components globally
+## Register components globally
 
 If you want to register components globally you can add components to the `_globals.js` file located in the components folder. If you imported the component to the index file located in the components folder you can simply add it to the coded import and to make the component globally add it to the constant. 
 
@@ -60,6 +60,7 @@ const components = {
 Object.keys(components).forEach(key => Vue.component(key, components[key]));
 
 ```
+
 ------
 ### Using the generator CLI
 

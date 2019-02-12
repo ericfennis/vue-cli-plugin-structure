@@ -4,12 +4,15 @@
   To download and install see [installation guide](https://cli.vuejs.org/guide/installation.html) 
 :::
 
-## Quick installation command 
+## Quick installation command
+
 ``` sh
-vue create {my-project} --preset ericfennis/vue-structure
+vue create --preset ericfennis/vue-structure {my-project}
+
 ```
 
-## To install vue structure follow these commands 
+## To install vue structure follow these commands
+
 ``` sh
 # Create new project
 vue create my-project
@@ -25,4 +28,3 @@ yarn serve
 # or
 npm run serve
 ```
-

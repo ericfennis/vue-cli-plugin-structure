@@ -4,7 +4,7 @@
 
 The store folder includes an index file for indexing the store.js file, a store.js for initializing the store and a modules folder for store modules. 
 
-```
+``` text
 📂src
 ├── 📂store
 │   ├── index.js
@@ -89,7 +89,7 @@ export default {
   methods: {
     ...mapActions('app', [
       toggleMenu,
-    ]), 
+    ]),
   },
 }
 

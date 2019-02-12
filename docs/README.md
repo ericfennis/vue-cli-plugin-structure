@@ -16,6 +16,16 @@ footer: LICENCE MIT - Created by Eric Fennis (@ericfennis)
 ## Quick installation
 
 ```
-vue create {Your-package} --preset ericfennis/vue-structure
+vue create --preset ericfennis/vue-structure {my-project}
 ```
 
+## Add-on
+
+::: tip
+[Vue Structure Generator](https://github.com/ericfennis/vue-cli-plugin-structure-generator) Generate: Components, Views + Routes, Stores, Filters, Directives and Mixins.  
+:::
+
+## Known compatible other Vue CLI Plugins
+
+* [**Vue CLI Plugin i18n**](https://github.com/kazupon/vue-cli-plugin-i18n)
+* [**Vue CLI Plugin Electron Builder**](https://github.com/nklayman/vue-cli-plugin-electron-builder)

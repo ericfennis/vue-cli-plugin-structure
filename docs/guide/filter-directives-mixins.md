@@ -92,6 +92,3 @@ If you using the structure generator you can generate filters, directives and mi
 * a empty filter/directive/mixin
 * the import in the index file
 * _optional:_ register it globally.
-
-
-

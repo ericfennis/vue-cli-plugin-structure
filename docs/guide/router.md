@@ -37,8 +37,8 @@ More about how to configure the Vue Router read their [documentation](https://ro
 The routes are placed in a separated file `routes.js` to keep a good overview of all the configured routes. In the top of the file all the views can be imported. If you have added the view component in the index file located in: `src/views/index.js` , you can simply import all the views with one import. See example below.
 
 ```javascript
-import { 
-  About, 
+import {
+  About,
   ..
 } from '@/views';
 
@@ -65,4 +65,3 @@ More information about router, check [Vue Router Documentation](https://router.v
 You can generate new routes using the Structure Generator when generating a new view. 
 
 For more info check the [Generator Guide](../the-generator/getting-started-with-the-generator.md).
-

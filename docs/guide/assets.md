@@ -1,6 +1,6 @@
 # Assets
 
-In the assets folder 
+In the assets folder
 
 ```text
 📂src
@@ -9,6 +9,6 @@ In the assets folder
 │   ├── 📂icons
 │   ├── 📂images
 │   └── 📂styles
-│   
+│
 ..
 ```

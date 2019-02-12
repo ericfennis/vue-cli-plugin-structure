@@ -5,7 +5,6 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'External', link: 'https://google.com' },
     ],
     displayAllHeaders: true,
     repo: 'ericfennis/vue-cli-plugin-structure',
@@ -42,17 +41,15 @@ module.exports = {
             'config',
           ]
         },
-      ],
+        {
+          title: 'The generator',
+          sidebarDepth: 1,
+          collapsable: false,
+          children: [
+            'the-generator',
+          ]
+        },
+      ]
     },
-    // '/': {
-    //   sidebar: 'auto'
-    // }
-    //sidebar: true,
-    // sidebar: {
-    //   '/guide/': [
-    //     '/guide/',
-    //     '/guide/installation',
-    //   ],
-    // },
   },
 }

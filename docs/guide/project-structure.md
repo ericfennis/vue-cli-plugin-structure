@@ -13,7 +13,7 @@ In this folder you will find a .env file to define Environment Variables. It's n
 ├── 📂 public
 │   ├── favicon.ico
 │   └── index.html
-└── 📂 src 
+└── 📂 src
     └── ...
 ```
 
@@ -21,11 +21,11 @@ In this folder you will find a .env file to define Environment Variables. It's n
 
 ```bash
 ..
-│ 
-📂 src 
+│
+📂 src
     │
     ├── main.js
-    ├── 📂 App 
+    ├── 📂 App
     ├── 📂 assets
     ├── 📂 components
     ├── 📂 config
@@ -36,6 +36,3 @@ In this folder you will find a .env file to define Environment Variables. It's n
     ├── 📂 store
     └── 📂 views
 ```
-
-
-
