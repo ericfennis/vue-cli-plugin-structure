@@ -1,6 +1,9 @@
 module.exports = {
   title: 'Vue Structure',
   description: 'A Vue CLI plugin to generate a project structure before starting a Vue project',
+  head: [
+    ['link', { rel: 'shortcut icon', href: `/favicon.ico` }],
+  ],
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
