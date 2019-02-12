@@ -12,7 +12,7 @@ module.exports = {
     displayAllHeaders: true,
     repo: 'ericfennis/vue-cli-plugin-structure',
     docsDir: 'docs',
-    docsBranch: 'feature/vue-press',
+    docsBranch: 'docs',
     editLinks: true,
     lastUpdated: 'Last Updated',
     editLinkText: 'Edit this page on GitHub',
