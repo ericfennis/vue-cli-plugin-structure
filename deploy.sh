@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'Deploy Docs'
 
-git push -f git@github.com:ericfennis/vue-structure.git master:gh-pages
+git push -f git@github.com:ericfennis/vue-cli-plugin-structure.git master:gh-pages
 
 cd -

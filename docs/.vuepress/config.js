@@ -4,6 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'shortcut icon', href: `/favicon.ico` }],
   ],
+  base: '/vue-cli-plugin-structure/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
