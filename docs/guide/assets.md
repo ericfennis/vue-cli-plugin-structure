@@ -22,7 +22,7 @@ This folder you can use for SVG icons. To use the SVG icons in your project you 
 
 ### Using the `<Icon/>` component
 
-The icon component is registered globally, so you don't need to import it in you Vue component again. To use the Icon component you can use it like:
+The icon component is **registered globally**, so you don't need to import it in your Vue component again. To use the Icon component: use the filename of the svg and fill it in the the name prop. Omit the file extension,
 
 ```html
 <Icon name="vue" />
