@@ -59,7 +59,7 @@ export default {
 
 ```
 
-### Register a filter/directive/mixin globally
+## Register a filter/directive/mixin globally
 
 In the `_globals.js` you can add add filters/directives/mixins to the global object. Make sure that the import module is also added to the filters/directives/mixins object.
 
@@ -92,3 +92,5 @@ If you using the structure generator you can generate filters, directives and mi
 * a empty filter/directive/mixin
 * the import in the index file
 * _optional:_ register it globally.
+
+For more info check the [Generator Guide](./the-generator.md).

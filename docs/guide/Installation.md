@@ -8,7 +8,6 @@
 
 ``` sh
 vue create --preset ericfennis/vue-structure {my-project}
-
 ```
 
 ## To install vue structure follow these commands

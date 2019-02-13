@@ -1,6 +1,6 @@
 # Store
 
-### The store folder
+## The store folder
 
 The store folder includes an index file for indexing the store.js file, a store.js for initializing the store and a modules folder for store modules. 
 
@@ -17,25 +17,24 @@ The store folder includes an index file for indexing the store.js file, a store.
 ..
 ```
 
-### Adding Store modules
+## Adding Store modules
 
 The store modules are imported with the index.js file located in the store folder. If you want to add more stores you can create a new folder with store javascript in the modules folder and add add the new store in the index.js in the store module folder:
 
 ```javascript
-// Index.js in store/modules
+// Example code in ./src/store/modules/index.js
 
-// Register here new Store modules
 export { default as app } from './app';
 export { default as account } from './account';
 export { default as products } from './products';
 
 ```
 
-### The Store module
+## The Store module
 
 By the default there is added an app store module located in the modules folder. By default the store module is namespaced. More information about that read [Vuex Documentation](https://vuex.vuejs.org/guide/modules.html#namespacing).
 
-#### An example of using the store.
+## An example of using the store.
 
 ```javascript
 export const types = {
@@ -73,7 +72,7 @@ export default {
 
 ```
 
-#### Example for using the store in a component
+## Example for using the store in a component
 
 ```javascript
 import { mapGetters, mapActions } from 'vuex';
@@ -99,5 +98,5 @@ export default {
 
 If you using the structure generator you can generate stores fro  you. It will ask you a name and it generates a new store folder and add it to the store modules index.js file.
 
-For more info check the [Generator Guide](../the-generator/getting-started-with-the-generator.md).
+For more info check the [Generator Guide](./the-generator.md).
 

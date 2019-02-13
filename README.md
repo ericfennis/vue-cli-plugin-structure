@@ -1,4 +1,5 @@
-![logo](https://ericfennis.github.io/vue-cli-plugin-structure/logo.svg)
+<p align=center><img width="410" src="https://ericfennis.github.io/vue-cli-plugin-structure/logo-text.svg" alt="Vue Structure Logo"></p>
+
 ![NPM Downloads](https://img.shields.io/npm/dw/vue-cli-plugin-structure.svg?style=popout)
 ![MIT License](https://img.shields.io/github/license/ericfennis/vue-cli-plugin-structure.svg?style=popout)
 ![Issues](https://img.shields.io/github/issues/ericfennis/vue-cli-plugin-structure.svg?style=popout)
@@ -8,13 +9,17 @@
 
 Vue Structure is a Vue CLI Plugin that generate a project structure. It's made following the: Javascript Conventions and [Vue Style Guide](https://vuejs.org/v2/style-guide/).
 
-## Vue Structure provide:
+## Documentation
+
+The Vue Structure documentation, visit [Vue Structure Docs](https://ericfennis.github.io/vue-cli-plugin-structure/)
+
+## Vue Structure provide
 
 * Conventional project structure
 * Code Comfort
 * Modularity
 
-## Features:
+## Features
 
 * Router
 * Store (State Management)
@@ -24,6 +29,8 @@ Vue Structure is a Vue CLI Plugin that generate a project structure. It's made f
 * Views folder (with "404 Not Found view")
 * Asset folder included: fonts, icons, images and SCSS files.
 * Airbnb Code Style
+
+![Infograpic](https://ericfennis.github.io/vue-cli-plugin-structure/infographic.svg)
 
 ## Packages
 

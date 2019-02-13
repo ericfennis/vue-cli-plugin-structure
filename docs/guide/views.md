@@ -35,4 +35,4 @@ If you using the structure generator it can generate the files and imports for y
 
 You can also generate the route for the view.
 
-For more info check the [Generator Guide](../the-generator/getting-started-with-the-generator.md).
+For more info check the [Generator Guide](./the-generator.md).
