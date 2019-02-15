@@ -5,6 +5,9 @@
   "license": "MIT",
   "version": "0.7.2",
   "main": "index.js",
+  "scripts": {
+    "build": "node ./build.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ericfennis/vue-cli-plugin-structure.git"
@@ -22,5 +25,8 @@
   "homepage": "https://github.com/ericfennis/vue-cli-plugin-structure#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "fs-extra": "^7.0.1"
   }
 }
