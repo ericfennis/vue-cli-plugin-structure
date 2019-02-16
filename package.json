@@ -3,7 +3,7 @@
   "description": "Vue Structure Cli Plugin for rendering project structure",
   "author": "Eric Fennis <ericfennis>",
   "license": "MIT",
-  "version": "0.7.2",
+  "version": "0.7.4",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
