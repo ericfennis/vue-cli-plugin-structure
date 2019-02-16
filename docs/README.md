@@ -20,7 +20,7 @@ vue create --preset ericfennis/vue-structure {my-project}
 ```
 
 ## The Structure
-![Infograpic](/infographic.svg)
+![Infograpic](/vue-cli-plugin-structure/infographic.svg)
 
 ## Add-on
 
