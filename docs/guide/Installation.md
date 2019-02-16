@@ -1,7 +1,7 @@
 # Installation
 
 ::: warning Vue Structure requires Vue CLI 3.
-  To download and install see [installation guide](https://cli.vuejs.org/guide/installation.html) 
+  To download and install see [installation guide](https://cli.vuejs.org/guide/installation.html)
 :::
 
 ## Quick installation command
