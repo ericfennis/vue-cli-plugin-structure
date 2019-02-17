@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2018 Eric Fennis <eric.fennis@gmail.com> (github.com/ericfennis)
+Copyright (c) 2019 Eric Fennis <eric.fennis@gmail.com> (github.com/ericfennis)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

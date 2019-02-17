@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1024">
+  <title>Infographic</title>
+  <polygon points="353.44 150.33 1246.55 150.33 800 923.79 353.44 150.33" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="736.64 372.26 863.36 372.26 800 482 736.64 372.26" fill="#41b883" stroke="#41b883" stroke-miterlimit="10" stroke-width="12.1"/>
+  <polygon points="704.96 427.13 673.28 372.26 736.64 372.26 704.96 427.13" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="895.04 427.13 863.36 372.26 926.72 372.26 895.04 427.13" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="863.36 482 831.68 427.13 895.04 427.13 863.36 482" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="768.32 536.87 736.64 482 800 482 768.32 536.87" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="736.64 482 704.96 427.13 768.32 427.13 736.64 482" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="863.36 372.26 831.68 427.13 895.04 427.13 863.36 372.26" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="736.64 372.26 704.96 427.13 768.32 427.13 736.64 372.26" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="800 482 768.32 536.87 831.68 536.87 800 482" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="831.68 427.13 800 482 863.36 482 831.68 427.13" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="768.32 427.13 736.64 482 800 482 768.32 427.13" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="831.68 536.87 800 482 863.36 482 831.68 536.87" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="800 591.74 768.32 536.87 831.68 536.87 800 591.74" fill="none" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <polygon points="414.8 344.39 389.46 300.5 414.8 256.6 584.11 256.6 609.45 300.5 584.11 344.39 414.8 344.39" fill="#f8f8f8" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <text transform="translate(442.06 313.02)" font-size="42" fill="#2c3e50" font-family="Asap-Medium, Asap" font-weight="500">Assets</text>
+  <polygon points="398.73 522.01 373.38 478.12 398.73 434.22 568.03 434.22 593.38 478.12 568.03 522.01 398.73 522.01" fill="#f8f8f8" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <text transform="translate(434.75 491.69)" font-size="42" fill="#2c3e50" font-family="Asap-Medium, Asap" font-weight="500">Store</text>
+  <polygon points="929.42 699.63 904.07 655.74 929.42 611.84 1098.72 611.84 1124.07 655.74 1098.72 699.63 929.42 699.63" fill="#f8f8f8" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <text transform="translate(950.72 671.36)" font-size="44.8" fill="#2c3e50" font-family="Asap-Medium, Asap" font-weight="500">Mixins</text>
+  <polygon points="1031.96 522.01 1006.62 478.12 1031.96 434.22 1217.27 434.22 1242.62 478.12 1217.27 522.01 1031.96 522.01" fill="#f8f8f8" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <text transform="translate(1061.68 491.69)" font-size="42" fill="#2c3e50" font-family="Asap-Medium, Asap" font-weight="500">Router</text>
+  <polygon points="485.27 699.63 459.93 655.74 485.27 611.84 670.58 611.84 695.93 655.74 670.58 699.63 485.27 699.63" fill="#f8f8f8" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <text transform="translate(520.7 671.36)" font-size="42" fill="#2c3e50" font-family="Asap-Medium, Asap" font-weight="500">Filters</text>
+  <polygon points="1016.67 344.39 991.33 300.5 1016.67 256.6 1185.98 256.6 1211.33 300.5 1185.98 344.39 1016.67 344.39" fill="#f8f8f8" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <text transform="translate(1048.73 313.02)" font-size="42" fill="#2c3e50" font-family="Asap-Medium, Asap" font-weight="500">Views</text>
+  <polygon points="647.35 196.78 622 152.88 647.35 108.98 952.65 108.98 978 152.88 952.65 196.78 647.35 196.78" fill="#f8f8f8" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <text transform="translate(682.7 165.55)" font-size="42" fill="#2c3e50" font-family="Asap-Medium, Asap" font-weight="500">Components</text>
+  <polygon points="667.35 857.25 642 813.36 667.35 769.46 932.65 769.46 958 813.36 932.65 857.25 667.35 857.25" fill="#f8f8f8" stroke="#34495e" stroke-linejoin="round" stroke-width="12.1"/>
+  <text transform="translate(707.73 825.81)" font-size="42" fill="#2c3e50" font-family="Asap-Medium, Asap" font-weight="500">Directives</text>
+</svg>
