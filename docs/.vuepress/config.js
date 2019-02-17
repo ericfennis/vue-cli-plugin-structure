@@ -5,6 +5,7 @@ module.exports = {
     ['link', { rel: 'shortcut icon', href: `/favicon.ico` }],
   ],
   base: '/vue-cli-plugin-structure/',
+  ga: 'UA-134637770-1',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -56,4 +57,12 @@ module.exports = {
       ]
     },
   },
+  plugins: [
+    [ 
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-134637770-1'
+      }
+    ]  
+  ] 
 }
