@@ -31,7 +31,8 @@
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
+    "fs-extra": "^7.0.1",
     "vuepress": "^1.0.0-alpha.37",
-    "fs-extra": "^7.0.1"
+    "walk": "^2.3.14"
   }
 }
