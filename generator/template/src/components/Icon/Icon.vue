@@ -4,7 +4,7 @@
 <template>
   <!-- eslint-disable vue/no-v-html -->
   <span 
-    class="icon"
-    v-html="icon"
+    class="icon" 
+    v-html="icon" 
   />
 </template>

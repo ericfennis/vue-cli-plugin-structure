@@ -2,7 +2,7 @@ const path = require("path");
 const fs = require("fs-extra");
 const walk = require('walk');
 
-const dist = './dist';
+const dist = './generator/template';
 
 const excludeByBuild = [
   'src/node_modules',
