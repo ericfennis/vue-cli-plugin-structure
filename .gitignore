@@ -2,3 +2,5 @@
 node_modules
 /dist
 .test_bash
+docs/.vuepress/dist
+*.log
