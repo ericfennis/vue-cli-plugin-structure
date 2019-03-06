@@ -2,8 +2,8 @@
 <script src="./Home.js"></script>
 
 <template>
-  <div>
-    <h1>Home</h1>
+  <div class="home">
+    <h1>Home view</h1>
     <ExampleComponent />
   </div>
 </template>

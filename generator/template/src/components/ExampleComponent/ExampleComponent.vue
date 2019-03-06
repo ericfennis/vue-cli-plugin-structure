@@ -2,11 +2,9 @@
 <script src="./ExampleComponent.js"></script>
 
 <template>
-  <div>
-    <h3>Component</h3>
-    <div>
-      <Icon name="vue" />
-    </div>
+  <div class="example-component">
+    <h3>Example Component</h3>
+    <Icon name="vue" />
 
     <!-- DELETE ME -->
     <figure style="border-radius: 8px; margin: 12vh auto; width: 480px; background: #fafafa; box-shadow: 0 3px 6px rgba(0,0,0,.16); padding:45px 35px; box-sizing: border-box; text-align: center;">

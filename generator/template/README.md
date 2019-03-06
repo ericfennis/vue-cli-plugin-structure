@@ -1,8 +1,8 @@
-<p align=center><img width="410" src="https://user-images.githubusercontent.com/11825403/47913201-848e1000-de9b-11e8-8c51-8d269bdf4ca1.png" alt="Vue Structure Logo"></p>
+<p align=center><img width="410" src="https://raw.githubusercontent.com/ericfennis/vue-structure/4bff88983d079a288be98b0adcb5cc00e43cecc7/src/assets/images/vue-structure.png" alt="Vue Structure Logo"></p>
 
 
 # Vue Structure
-An project boilerplate for Vue.js made for Vue CLI. Clean code structure to speed up your development time. No more wasting time for setting up Vue projects.
+An project boilerplate for Vue CLI. Clean code structure to speed up your development time. No more wasting time to set-up your Vue projects.
 
 ## Features
 * Router
