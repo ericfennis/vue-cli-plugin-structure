@@ -18,7 +18,7 @@ description: >-
 
 ```bash
 # Add Generator in your vue cli project
-vue add structure generator
+vue add structure-generator
 ```
 
 ### Getting Started with Structure Generator
