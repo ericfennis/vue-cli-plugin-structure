@@ -3,9 +3,10 @@
   "description": "Vue Structure Cli Plugin for rendering project structure",
   "author": "Eric Fennis <ericfennis>",
   "license": "MIT",
-  "version": "0.7.5",
+  "version": "0.7.8",
   "main": "index.js",
   "scripts": {
+    "build": "node ./build.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:deploy": "./deploy.sh"
@@ -30,6 +31,8 @@
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
-    "vuepress": "^1.0.0-alpha.37"
+    "fs-extra": "^7.0.1",
+    "vuepress": "^1.0.0-alpha.37",
+    "walk": "^2.3.14"
   }
 }

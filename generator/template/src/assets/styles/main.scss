@@ -3,17 +3,21 @@
 @import './partials/fonts';
 @import './partials/animations';
 
+// Variables
 @import './variables/breakpoints';
 @import './variables/colors';
 @import './variables/typography';
 @import './variables/spacings';
 
+// Modules
 @import './modules/mixins';
 @import './modules/functions';
 
+// Layout
 @import './layout/grid';
 @import './layout/form';
 @import './layout/button';
 @import './layout/base';
 
+// Vendor
 @import './vendor/vendor';
