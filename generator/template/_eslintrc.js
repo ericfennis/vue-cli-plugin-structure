@@ -19,8 +19,8 @@ module.exports = {
         config: require.resolve('@vue/cli-service/webpack.config.js'),
       },
       node: {
-        paths: ["@"],
-        extensions: [".js", ".vue", ".scss"]
+        paths: ['@'],
+        extensions: ['.js', '.vue', '.scss']
       },
     },
   },
