@@ -1,5 +1,9 @@
 # Overview
 
+## Vue Structure
+
+Vue structure offers a project structure for the average Vue project with Vuex and Vue router. It's made following the: [Airbnb Style Guide](https://github.com/airbnb/javascript) and [Vue Style Guide](https://vuejs.org/v2/style-guide/).
+
 ## Features
 
 * Router

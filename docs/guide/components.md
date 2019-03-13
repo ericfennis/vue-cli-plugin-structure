@@ -64,6 +64,6 @@ Object.keys(components).forEach(key => Vue.component(key, components[key]));
 ------
 ### Using the generator CLI
 
-If you using the structure generator it can generate the files and imports for you. Depending on the chosen answers it will generates a folder with the files: Index.js, {component}.js, {component}.scss and {component}.vue. 
+If you using the structure generator it can generate the files and imports for you. Depending on the chosen answers it will generates a folder with the files: Index.js, {component}.js, {component}.scss and {component}.vue.
 
 For more info check the [Generator Guide](./the-generator.md).

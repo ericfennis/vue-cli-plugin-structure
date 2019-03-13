@@ -14,14 +14,14 @@ description: >-
 * Directives
 * Mixins
 
-### Installation
+## Installation
 
 ```bash
 # Add Generator in your vue cli project
 vue add structure-generator
 ```
 
-### Getting Started with Structure Generator
+## Getting Started with Structure Generator
 
 ```bash
 # Start using
@@ -35,7 +35,7 @@ $ yarn make
   Directive
 ```
 
-### Shorthand generate commands
+## Shorthand generate commands
 
 Shorthand commands give you the option to skip the prompt, it will also not generate imports in `_globals.js` files \(for component, directive, filters and mixins\), for views will it skip the route generator as wel.
 
@@ -49,32 +49,32 @@ yarn make --<type> [<name>]
 
 ```bash
 # Generate component
-yarn make --component button 
+yarn make --component button
 ```
 
 ```bash
 # Generate view
-yarn make --view contact 
+yarn make --view contact
 ```
 
 ```bash
 # Generate store
-yarn make --store products 
+yarn make --store products
 ```
 
 ```bash
 # Generate filter
-yarn make --filter uppercase 
+yarn make --filter uppercase
 ```
 
 ```bash
 # Generate directive
-yarn make --directive focus 
+yarn make --directive focus
 ```
 
 ```bash
 # Generate mixin
-yarn make --mixin scrollTo 
+yarn make --mixin scrollTo
 ```
 
 ::: warning

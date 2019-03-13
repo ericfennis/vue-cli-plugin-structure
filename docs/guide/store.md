@@ -98,5 +98,4 @@ export default {
 
 If you using the structure generator you can generate stores fro  you. It will ask you a name and it generates a new store folder and add it to the store modules index.js file.
 
-For more info check the [Generator Guide](./the-generator.md).
-
+> For more info check the [Generator Guide](./the-generator.md).

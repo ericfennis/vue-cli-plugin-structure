@@ -53,11 +53,11 @@ To link images in your components or views you can use:
 
 ## Styles
 
-In the you will find the styling for the Vue Project. Styling is in [Sass](https://sass-lang.com/). 
+In the you will find the styling for the Vue Project. Styling is in [Sass](https://sass-lang.com/).
 
 ### Folders
 
-In the styles folder you will find 5 folders: 
+In the styles folder you will find 5 folders:
 
 - layout
 - partials
@@ -109,7 +109,3 @@ You can add vendor styling from node_modules like this:
 ### Globals.scss
 
 In this file all the sass files are importer that will globally imported in all the components files.
-
-
-
-

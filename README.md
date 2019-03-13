@@ -65,6 +65,6 @@ yarn serve
 
 ## Quick Installation
 
-``` sh
+```sh
 vue create --preset ericfennis/vue-structure {my-project}
 ```

@@ -13,6 +13,11 @@ features:
 footer: LICENCE MIT - Created by Eric Fennis (@ericfennis)
 ---
 
+# Vue Structure
+
+Vue structure offers a project structure for the average Vue project that can scale-up, features Vuex and Vue router. It's made following the: [Airbnb Style Guide](https://github.com/airbnb/javascript) and [Vue Style Guide](https://vuejs.org/v2/style-guide/).
+Because Vue self doesn't guide you about structuring projects, Vue Structure gives you the structure to develop in.
+
 ## Quick installation
 
 ``` sh
@@ -20,6 +25,7 @@ vue create --preset ericfennis/vue-structure {my-project}
 ```
 
 ## The Structure
+
 ![Infograpic](/vue-cli-plugin-structure/infographic.svg)
 
 ## Add-on

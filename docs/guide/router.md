@@ -62,6 +62,6 @@ More information about router, check [Vue Router Documentation](https://router.v
 
 ### Generate routes using the Generator CLI
 
-You can generate new routes using the Structure Generator when generating a new view. 
+You can generate new routes using the Structure Generator when generating a new view.
 
-For more info check the [Generator Guide](./the-generator.md).
+> For more info check the [Generator Guide](./the-generator.md).
