@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Vue Structure',
-  description: 'A Vue CLI plugin offering the missing project structure to work in.',
+  description: 'A Vue CLI plugin offering the missing project structure for Vue.',
   head: [
     ['link', { rel: 'shortcut icon', href: `/favicon.ico` }],
   ],
