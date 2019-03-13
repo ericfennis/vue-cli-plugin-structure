@@ -7,7 +7,8 @@
 
 # Vue CLI Plugin Structure
 
-Vue Structure is a Vue CLI Plugin that generate a project structure. It's made following the: Javascript Conventions and [Vue Style Guide](https://vuejs.org/v2/style-guide/).
+Vue structure offers a project structure for the average Vue project that can scale-up, features Vuex and Vue router. It's made following the: [Airbnb Style Guide](https://github.com/airbnb/javascript) and [Vue Style Guide](https://vuejs.org/v2/style-guide/).
+Because Vue self doesn't guide you about structuring projects, Vue Structure gives you the structure to develop in.
 
 ## Documentation
 
@@ -29,6 +30,8 @@ The Vue Structure documentation, visit [Vue Structure Docs](https://ericfennis.g
 * Views folder (with "404 Not Found view")
 * Asset folder included: fonts, icons, images and SCSS files.
 * Airbnb Code Style
+
+## The Structure
 
 ![Infograpic](https://ericfennis.github.io/vue-cli-plugin-structure/infographic.svg)
 
